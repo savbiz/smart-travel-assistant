@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D36D1F"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textWhere"
+        android:layout_alignLeft="@+id/btnGuide"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnCall1"
+        android:background="#D36D1F"
+        android:gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#8C100A"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textWhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D36D1F"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#8C100A"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textDesc"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCall1"
+        android:layout_alignLeft="@+id/textTitle"
+        android:layout_alignParentRight="true"
+        android:layout_weight="0.05"
+        android:autoLink="web"
+        android:background="#D36D1F"
+        android:gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#000080"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="Sito Web Non Disponibile"
+        android:textColor="#000080"
+        android:textSize="20dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnCall1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttongreen"
+        android:drawableLeft="@drawable/phone"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnShow"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/button_fb"
+        android:padding="10dp"
+        android:paddingLeft="30dip"
+        android:paddingRight="26dip"
+        android:text="Mostra su mappa"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGuide"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/button_fb"
+        android:padding="10dp"
+        android:paddingLeft="30dip"
+        android:paddingRight="26dip"
+        android:text="Naviga verso"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

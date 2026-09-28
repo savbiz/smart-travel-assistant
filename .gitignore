@@ -1,0 +1,41 @@
+# macOS metadata
+.DS_Store
+__MACOSX/
+
+# Legacy Android / Java generated output
+bin/
+gen/
+build/
+*.class
+*.apk
+*.ap_
+*.dex
+
+# Local SDK, signing material, and IDE state
+local.properties
+*.keystore
+*.jks
+.settings/
+.metadata/
+.idea/
+*.iml
+*.log
+
+# Excluded third-party dependency locations (JARs were inspected individually)
+/android-app/libs/
+/MainActivity/
+/google-play-services_lib/
+/appcompat_v7/
+/android-google-places-master/
+
+# Credentials and accidental source-archive copies
+.env
+.env.*
+*.p12
+*.pfx
+/Thesis Source Code.zip
+/Thesis Source Code/
+
+# Original artwork excluded after provenance review
+/android-app/ic_launcher-web.png
+/android-app/res/drawable-*/*.png

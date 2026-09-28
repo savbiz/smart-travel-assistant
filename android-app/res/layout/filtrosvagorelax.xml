@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:orientation="vertical">
+
+ 
+ <CheckBox android:id="@+id/spiaggia" android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:text="Spiagge" android:textSize="25dp"></CheckBox>
+ <CheckBox android:id="@+id/giardini" android:layout_width="wrap_content" android:textSize="25dp"
+  android:layout_height="wrap_content" android:text="Giardini"></CheckBox>
+ <CheckBox android:id="@+id/parchi" android:layout_width="wrap_content" android:textSize="25dp"
+  android:layout_height="wrap_content" android:text="Parchi"></CheckBox>
+</LinearLayout>

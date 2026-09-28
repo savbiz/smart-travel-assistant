@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbceb1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnGuide"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button1"
+        android:background="#fbceb1"
+        android:gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#ef4444"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textWhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fbceb1"
+        android:gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#000080"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sito ufficiale del P.O.I.:"
+        android:textColor="#ef4444"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnGuide"
+        android:layout_alignLeft="@+id/textDesc"
+        android:layout_weight="0.40"
+        android:autoLink="web"
+        android:gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="Sito Web Non Disponibile"
+        android:textColor="#000080"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profilo Google+ del P.O.I.:"
+        android:textColor="#ef4444"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDesc"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_weight="0.46"
+        android:autoLink="web"
+        android:background="#fbceb1"
+        android:gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textColor="#000080"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttongreen"
+        android:drawableLeft="@drawable/phone"
+        android:textColor="#19880D"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnGuide"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/button_fb"
+        android:padding="10dp"
+        android:paddingLeft="30dip"
+        android:paddingRight="26dip"
+        android:text="Naviga verso"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShow"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/button_fb"
+        android:padding="10dp"
+        android:paddingLeft="30dip"
+        android:paddingRight="26dip"
+        android:text="Mostra su mappa"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

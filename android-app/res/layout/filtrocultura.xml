@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:orientation="vertical">
+
+ 
+ <CheckBox android:id="@+id/arte" android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:text="Gallerie d'Arte" android:textSize="25dp"></CheckBox>
+ <CheckBox android:id="@+id/musei" android:layout_width="wrap_content" android:textSize="25dp"
+  android:layout_height="wrap_content" android:text="Musei"></CheckBox>
+ <CheckBox android:id="@+id/biblioteca" android:layout_width="wrap_content" android:textSize="25dp"
+  android:layout_height="wrap_content" android:text="Biblioteche"></CheckBox>
+</LinearLayout>

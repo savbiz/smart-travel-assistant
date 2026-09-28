@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:orientation="vertical">
+
+ 
+ <CheckBox android:id="@+id/clima" android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:text="Condizioni climatiche" android:textSize="25dp"></CheckBox>
+ <CheckBox android:id="@+id/temperatura" android:layout_width="wrap_content" android:textSize="25dp"
+  android:layout_height="wrap_content" android:text="Temperatura"></CheckBox>
+ <CheckBox android:id="@+id/orari" android:layout_width="wrap_content" android:textSize="25dp"
+  android:layout_height="wrap_content" android:text="Orari d'apertura"></CheckBox>
+</LinearLayout>
